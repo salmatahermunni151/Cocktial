@@ -10,7 +10,7 @@
     display: block;
     text-align: center;
     margin: auto;
-    padding-top: 20px;
+    padding-top: 50px;
     width: 90%;
 }
 .ban-text{
@@ -28,6 +28,72 @@
     margin-top: 60px;
     width: 100%;
     height: 100%;
+}
+
+/* first section code start */
+#sec-1{
+  margin: 20% 0;
+  text-align: center;
+}
+.fea-logo{
+  font-size: 25px;
+  margin-bottom: 15%;
+}
+#fea-parent{
+  grid-template-columns: repeat(1,1fr);
+  width: 90%;
+}
+.fea-items{
+  padding: 25px 10px;
+  border-radius: 8px;
+}
+/* second section code start here */
+#sec-2{
+  margin: 80px 0;
+}
+#health-parent{
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+.heal-text h2{
+  font-size: 23px;
+  padding: 15px 0;
+}
+.heal-text p{
+  font-size: 13px;
+}
+.heal-img img{
+  margin-top: 40px;
+  width: 100%;
+  height: 100%;
+}
+
+/* team section code start  */
+#sec-3{
+  text-align: center;
+  margin: 100px 0;
+}
+.team-title h2{
+  font-size: 28px;
+}
+.team-title h4{
+  font-size: 18px;
+}
+#team-parent{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  width: 90%;
+  margin: 0 auto;
+}
+.team-items img{
+  width: 100%;
+  height: 100%;
+}
+.team-items h4{
+  font-size: 16px;
+  padding-top: 14px;
 }
 }
 @media screen and (min-width:577px) and (max-width:768px) {
@@ -67,6 +133,65 @@
     width: 100%;
     height: 100%;
 }
+/* first section code start */
+#sec-1{
+  margin: 10% 0;
+  text-align: center;
+}
+.fea-logo{
+  font-size: 25px;
+  margin-bottom: 15%;
+}
+#fea-parent{
+  grid-template-columns: repeat(1,1fr);
+  width: 90%;
+}
+.fea-items{
+  padding: 25px 10px;
+  border-radius: 8px;
+}
+/* second section code start here */
+#sec-2{
+  margin: 80px 0;
+}
+#health-parent{
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.heal-text p{
+  font-size: 16px;
+}
+.heal-img img{
+  margin-top: 40px;
+  width: 100%;
+  height: 100%;
+}
+
+/* team section code start  */
+#sec-3{
+  text-align: center;
+  margin: 100px 0;
+}
+.team-title h2{
+  font-size: 28px;
+}
+.team-title h4{
+  font-size: 18px;
+}
+#team-parent{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  width: 90%;
+  margin: 0 auto;
+}
+.team-items img{
+  width: 100%;
+  height: 100%;
+}
+
 }
 @media screen and (min-width:768px) and (max-width:992px) {
     .nav-parents{
@@ -87,7 +212,7 @@
     display: flex;
     padding-top: 60px;
     width: 90%;
-    gap: 5%;
+   
 }
 .ban-text{
     width: 100%; 
@@ -103,9 +228,71 @@
     width: 100%;
     height: 100%;
 }
+/* first section code start */
+#sec-1{
+  margin: 8% 0;
+  text-align: center;
+}
+.fea-logo{
+  font-size: 25px;
+  margin-bottom: 8%;
+}
+#fea-parent{
+  grid-template-columns: repeat(2,1fr);
+  width: 90%;
+}
+.fea-items{
+  padding: 25px 10px;
+  border-radius: 8px;
 }
 
+/* second section code start here */
 
+#sec-2{
+  margin: 100px 0;
+}
+#health-parent{
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  gap: 10%;
+}
+
+.heal-text p{
+  font-size: 16px;
+}
+.heal-img img{
+  width: 100%;
+  height: 100%;
+}
+
+/* team section code start  */
+#sec-3{
+  text-align: center;
+  margin: 100px 0;
+}
+.team-title h2{
+  font-size: 28px;
+}
+.team-title h4{
+  font-size: 18px;
+}
+#team-parent{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  width: 90%;
+  margin: 0 auto;
+  gap: 13%;
+}
+.team-items img{
+  width: 100%;
+  height: 100%;
+}
+.team-items h4{
+  
+  padding-top: 14px;
+}
+}
 @media screen and (min-width:993px) and (max-width:1200px) {
     .nav-parents{
         padding: 20px;
@@ -133,5 +320,70 @@
     margin-top: 60px;
     width: 100%;
     height: 100%;
+}
+#sec-1{
+  margin: 8% 0 ;
+  text-align: center;
+}
+.fea-logo{
+  font-size: 25px;
+  margin-bottom: 8%;
+}
+#fea-parent{
+  grid-template-columns: repeat(4,1fr);
+  width: 90%;
+}
+.fea-items{
+  padding: 25px 10px;
+  border-radius: 8px;
+}
+.fea-items h4{
+  font-size: 13px;
+  padding: 12px 0;
+}
+.fea-items p{
+  font-size: 14px;
+}
+
+/* second section code start here */
+
+#sec-2{
+  margin: 100px 0;
+}
+#health-parent{
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  gap: 10%;
+}
+.heal-text p{
+  font-size: 16px;
+}
+.heal-img img{
+  width: 100%;
+  height: 100%;
+}
+
+/* team section code start  */
+#sec-3{
+  text-align: center;
+  margin: 100px 0;
+}
+.team-title h2{
+  font-size: 28px;
+}
+.team-title h4{
+  font-size: 18px;
+}
+#team-parent{
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  width: 90%;
+  margin: 0 auto;
+  gap: 5%;
+}
+.team-items img{
+  width: 90%;
+  height: 90%;
 }
 }
