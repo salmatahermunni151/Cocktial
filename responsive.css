@@ -88,8 +88,8 @@
   margin: 0 auto;
 }
 .team-items img{
-  width: 100%;
-  height: 100%;
+  width: 100px;
+  height: 100px;
 }
 .team-items h4{
   font-size: 16px;
@@ -267,12 +267,13 @@
 #team-parent{
   display: grid;
   grid-template-columns: repeat(2,1fr);
-  width: 90%;
+  width: 70%;
   margin: 0 auto;
+  gap: 35px;
 }
 .team-items img{
-  width: 100%;
-  height: 100%;
+  width: 150px;
+  height: 150px;
 }
 
 /* contact section code start */
@@ -439,11 +440,11 @@
   grid-template-columns: repeat(3,1fr);
   width: 90%;
   margin: 0 auto;
-  gap: 13%;
+  gap: 30px;
 }
 .team-items img{
-  width: 100%;
-  height: 100%;
+  width: 180px;
+  height: 180px;
 }
 .team-items h4{
   
@@ -610,14 +611,14 @@
 }
 #team-parent{
   display: grid;
-  grid-template-columns: repeat(5,1fr);
-  width: 90%;
+  grid-template-columns: repeat(3,1fr);
+  width: 70%;
   margin: 0 auto;
-  gap: 5%;
+  gap: 20px;
 }
 .team-items img{
-  width: 90%;
-  height: 90%;
+  width: 180px;
+  height: 180px;
 }
 
 /* contact section code start */
