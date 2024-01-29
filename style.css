@@ -222,9 +222,11 @@ header{
 .sec-input-filled input{
     width: 480px;
     height: 50px;
-    background-color: #ffffff59;
+    background-color: #ffffff7a;
+    color: #000;
     border: none;
     border-radius: 10px;  
+    padding: 0 10px;
 }
 .sec-input-filled .send-button{
     border: none;
@@ -269,66 +271,73 @@ header{
     color: #fff;
  }
  #footer-parent{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
+    display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 90%;
     margin: 0 auto;
     padding: 40px 0 50px;
     font-size: 16px;
  }
  .footer-items-1 h1{
-    padding: 18px 0;
+   padding-bottom: 17px;
+   font-size: 35px;
  }
- .footer-items-1 h3{
+ .follow-icon h3{
     margin: 10px 0 15px 0;
  }
 .footer-items-1 p{
     font-size: 16px;
     width: 280px;
 }
-.footer-icon i{
+.follow-icon i{
     background-color: #55efc4;
     font-size: 17px;
     padding: 7px;
     margin-right: 5px;
     border-radius: 50px;
 }
- .footer-items-2 h2{
-    padding: 18px 0;
+
+.footer-items2-parent{
+    display: flex;
+    gap: 90px;
+}
+ .footer-items-2 h3{
+    padding: 15px 0;
+    font-size: 18px;
  }
- .footer-items-2 h5{
-    font-size: 16px;
-    margin-top: 10px;
- }
- .footer-items-2 h5 i{
-    font-size: 12px;
+
+.footer-items-2 ul li{
+    list-style: none;
+    font-size: 14px;
+    margin: 13px 0;
+}
+.footer-items-2 ul li i{
+    font-size: 10px;
     margin-right: 5px;
- }
- 
- .footer-items-3{
+ } 
+.footer-items-3{
     display: flex;
     align-items: center;
- }
- .footer-items-3 input{
-    width: 250px;
-    height: 45px;
+    gap: 5px;
+}
+.footer-items-3 input{
+    width: 270px;
+    height: 50px;
     background: none;
     color: #fff;
     border: 1px solid #fff;
     border-radius: 10px;
-    margin: 0 16px;
     padding: 0 8px;
- }
+}
 .subscribe-btn{
     display: flex;
     align-items: center;
-    font-size: 20px;
+    font-size: 19px;
     background-color: #55efc4;
-    padding: 13px 25px;
+    padding: 12px;
     border-radius: 30px;
     color: #fff;
-   
  }
  .footer-items-3 .subscribe-btn i{
     margin-right: 5px;

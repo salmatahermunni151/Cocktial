@@ -113,7 +113,6 @@
 .sec-input-filled{
   display: block;
   width: 100%;
-  margin: 0 auto;
 } 
 .sec-input-filled input{
   width: 100%;
@@ -147,8 +146,7 @@
   width: 100%;
  }
  #footer-parent{
-  display: grid;
-  grid-template-columns: repeat(1,1fr);
+  display: block;
   align-items: center;
   width: 90%;
   padding: 30px 0;
@@ -160,12 +158,16 @@
 }
 .footer-items-1 p{
   width: 100%;
+  display: none;
 }
 .footer-items-2{
   display: none;
 }
 .footer-items-3{
   display: block;
+}
+.footer-items-3 input{
+  width: 80%;
 }
 .subscribe-btn{
    margin: 20px auto;
@@ -318,8 +320,7 @@
   width: 100%;
  }
  #footer-parent{
-  display: grid;
-  grid-template-columns: repeat(1,1fr);
+  display: block;
   align-items: center;
   width: 90%;
   padding: 20px 0 40px 0;
@@ -338,7 +339,9 @@
 .footer-items-3{
   display: flex;
   align-items: center;
-  margin: auto;
+}
+.footer-items-3 input{
+  width: 100%;
 }
 
 .copy{
@@ -482,30 +485,41 @@
   width: 100%;
  }
  #footer-parent{
-  display: grid;
-  grid-template-columns: repeat(2,1fr);
-  align-items: center;
-  width: 90%;
-  padding: 20px 0 40px 0;
-  font-size: 16px;
-  text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin: 0 auto;
+    font-size: 16px;
+    padding: 30px 0;
 }
 .footer-items-1{
- margin-bottom: 10px; 
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+.footer-items-1 p{
+  display: none;
+}
+.footer-items2-parent{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
 }
 .footer-items-1 p{
   width: 100%;
-}
-.footer-items-2{
-  display: block;
 }
 
 .footer-items-3{
   display: flex;
   align-items: center;
   margin: auto;
+  gap: 25px;
 }
-
+.footer-items-3 input{
+  width: 100%;
+}
 .copy{
   text-align: center;
   padding: 13px 0;
@@ -637,33 +651,42 @@
 }
 
  /* footer section start here */
+
  footer{
   width: 100%;
- }
- #footer-parent{
-  display: grid;
-  grid-template-columns: repeat(3,1fr);
+}
+#footer-parent{
+  display: flex;
+  justify-content: space-between;
   align-items: center;
   width: 90%;
-  padding: 20px 0 40px 0;
-  font-size: 16px;
+  margin: 0 auto;
+  padding: 40px 0 50px;
 }
-.footer-items-1{
- 
-}
-.footer-items-1 p{
-  width: 100%;
-}
-.footer-items-2{
-  display: block;
+
+.footer-items2-parent{
+  display: flex;
+  gap: 90px;
 }
 
 .footer-items-3{
   display: flex;
   align-items: center;
-  margin: auto;
+  gap: 5px;
 }
 
+.footer-items-3 input{
+  width: 100%;
+  height: 40px;
+  margin-left: 18px;
+}
+
+.subscribe-btn{
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  padding: 8px;
+}
 .copy{
   text-align: center;
   padding: 13px 0;
